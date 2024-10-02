@@ -1,0 +1,21 @@
+.body {
+    position:relative;
+}
+.TextCont {
+    background-color: white;
+    padding: 1.5%;
+}
+
+.TextCont h1 {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 3rem;
+    /* margin-left: 5%; */
+}
+
+.TextCont p {
+    color: black;
+    text-align: justify;
+    font-size: 1.5rem;
+}

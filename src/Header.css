@@ -1,37 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Desactiva el scroll horizontal */
+}
 .video-container {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+  position: relative; /* Cambia a 'relative' para que mantenga su lugar en el flujo */
+  width: 100%;
+  height: 100vh; /* Mantén el 100vh para que ocupe toda la pantalla */
+  overflow: hidden;
+}
+
   
-  .background-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100vw;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
-    z-index: -1; /* Para que el video quede detrás del contenido */
-  }
-  
-  .content {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-  }
-  
+.background-video {
+  margin: 0;
+  padding: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  min-width: 100%; /* Asegura que el ancho mínimo ocupe todo el viewport */
+  min-height: 100%; /* Asegura que la altura mínima cubra todo el viewport */
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Para que el video quede detrás del contenido */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+
+
+.typewriter {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+  font-size: 5rem; /* Ajusta según el tamaño que necesites */
+  z-index: 10;
+  line-height: 1.5; /* Ajusta el espacio entre líneas */
+  white-space: pre-line; /* Permite que los saltos de línea se mantengan */
+  width: 30ch;
+}
+
+.sidebar {
+  position: absolute;
+  width: 5px;  /* Grosor de la barra */
+  height: 40%;  /* Ocupará el tamaño del contenido */
+  background-color: white;  /* Color de la barra */
+  margin-right: 20px;  /* Espacio entre la barra y el texto */
+  top: 55%;
+  left: 5%;
+  transform: translate(-50%, -50%);  
+}
+
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 1200px) {
   .typewriter {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: left;
-    font-size: 5rem; /* Ajusta según el tamaño que necesites */
-    z-index: 10;
-    line-height: 1.5; /* Ajusta el espacio entre líneas */
-    white-space: pre-line; /* Permite que los saltos de línea se mantengan */
+      font-size: 4rem; /* Reduce el tamaño en pantallas medianas */
+      transform: translate(-35%, -35%);
   }
-  
+}
+
+@media (max-width: 768px) {
+  .typewriter {
+      font-size: 2.5rem; /* Tamaño más pequeño para tablets */
+      width: 25ch; /* Ajusta el ancho del texto */
+  }
+}
+
+@media (max-width: 480px) {
+  .typewriter {
+      font-size: 2rem; /* Ajusta el tamaño del texto para móviles */
+      width: 20ch; /* Reduce el ancho del texto para pantallas pequeñas */
+      left: 50%; /* Mantén el texto centrado */
+      top: 40%; /* Ajusta la posición vertical en móviles */
+  }
+}
