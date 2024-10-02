@@ -22,3 +22,16 @@
     text-align: center;
   }
   
+  .typewriter {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    font-size: 5rem; /* Ajusta según el tamaño que necesites */
+    z-index: 10;
+    line-height: 1.5; /* Ajusta el espacio entre líneas */
+    white-space: pre-line; /* Permite que los saltos de línea se mantengan */
+  }
+  
