@@ -1,0 +1,29 @@
+.card {
+    max-width: 20rem; /* Tamaño máximo de la tarjeta */
+    margin: 0 auto; /* Centrar horizontalmente */
+    background-color: var(--card-bg, #ffffff); /* Color de fondo de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Para que el contenido que se desborde se oculte */
+  }
+  
+  .card-image {
+    width: 100%; /* Ocupa todo el ancho de la tarjeta */
+    height: 12rem; /* Altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+  }
+  
+  .card-content {
+    padding: 1rem; /* Espacio interno */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Tamaño de la fuente */
+    font-weight: 600; /* Grosor de la fuente */
+    color: var(--primary-color, #6EA6F3); /* Color del título */
+  }
+  
+  .card-text {
+    color: var(--text-muted, #666); /* Color del texto */
+  }
+  

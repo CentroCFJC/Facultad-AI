@@ -1,0 +1,22 @@
+.body {
+    position:relative;
+}
+.TextContInfo {
+    background-color: white;
+    padding: 1.5%;
+}
+
+.TextContInfo h1 {
+    color:black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 5rem;
+    /* margin-left: 5%; */
+}
+
+.TextContInfo p {
+    color: black;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+}
