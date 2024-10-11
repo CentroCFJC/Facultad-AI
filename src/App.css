@@ -5,3 +5,11 @@
   text-align: center;
 }
 
+.background-container {
+  background-image: url('./assets/fondo.png');
+  background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+  height: 100vh; /* Hace que el contenedor tenga la altura completa de la pantalla */
+  overflow-y: auto; /* Activa el desplazamiento vertical si es necesario */
+  position: relative; /* Asegura que el contenedor esté en la posición correcta en la jerarquía de capas */
+  z-index: 0; /* Coloca el contenedor en el fondo */
+}

@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Desactiva el scroll horizontal */
+}
+
+.container-fondo {
+    width: 100vw;  /* Hace que el contenedor tenga el ancho de la pantalla */
+}
+
+.img-fondo {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+    display: block; /* Elimina el espacio en línea abajo de la imagen */
+}
