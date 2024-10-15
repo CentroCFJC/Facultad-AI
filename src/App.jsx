@@ -7,6 +7,7 @@ import Texto1 from './Texto1.jsx'
 import Texto2 from './Texto2.jsx'
 import ImageGallery from './ImageGallery.jsx'
 import Fondo from './Fondo.jsx'
+import ImageCarousel from './ImageCarousel.jsx'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Texto2 />
       <InfoProyecto/>
       <ImageGallery />
+      <ImageCarousel />
     </div> 
     </>
   )

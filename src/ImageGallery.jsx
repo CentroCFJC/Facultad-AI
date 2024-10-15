@@ -9,7 +9,7 @@ const images = [
   },
   {
     id: 2,
-    url: 'https://images.unsplash.com/photo-1710333323633-5d8e9a2d0b2a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8',
+    url: 'https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     title: 'Mountain Lake',
   },
   {
@@ -19,7 +19,7 @@ const images = [
   },
   {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1710333323633-5d8e9a2d0b2a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8',
+    url: 'https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     title: 'Forest Path',
   },
 ];

@@ -1,0 +1,52 @@
+/* Contenedor de la tarjeta */
+.image-card-container {
+    width: 16rem; /* 64 */
+    height: 24rem; /* 96 */
+    perspective: 1000px;
+  }
+  
+  /* Parte interior de la tarjeta, con animación de flip */
+  .image-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Aplica la rotación en el eje Y cuando está volteada */
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  
+  /* Parte delantera de la tarjeta */
+  .image-card-front, .image-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Imagen de la parte delantera */
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Parte trasera de la tarjeta */
+  .image-card-back {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transform: rotateY(180deg);
+  }
+  
+  /* Texto de la parte trasera */
+  .info-text {
+    color: #4a5568; /* Text color */
+  }
+  
