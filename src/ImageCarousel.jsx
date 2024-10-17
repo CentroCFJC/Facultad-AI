@@ -5,7 +5,7 @@ import './ImageCarousel.css'; // Importamos los estilos
 const images = [
   {
     id: 1,
-    src: 'origen',
+    src: 'https://drive.google.com/u/1/drive-viewer/AKGpihbTsX1hMcJQSAZk5tsyQdnV5w4bZS36ezUfrejOPNT_EHkw8aMHo_P_SRMi-IXtyvwAiRPqUXwissjQJXiu2YvymLqkE3pJOdU=s1600-rw-v1',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
