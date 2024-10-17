@@ -5,7 +5,7 @@ import './ImageCarousel.css'; // Importamos los estilos
 const images = [
   {
     id: 1,
-    src: 'src/assets/genérica.png',
+    src: 'origen',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',

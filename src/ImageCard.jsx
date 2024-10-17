@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ImageCard.css'; // Importa los estilos
+import origen from './assets/origen.png';
 
 function ImageCard({ src, alt, title, lider, info, sub }) {
   const [isFlipped, setIsFlipped] = useState(false);
