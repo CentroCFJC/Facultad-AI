@@ -1,7 +1,7 @@
 /* Contenedor de la tarjeta */
 .image-card-container {
-    width: 16rem; /* 64 */
-    height: 24rem; /* 96 */
+    width: 25rem; /* 600px */
+    height: 35rem; /* 892 */
     perspective: 1000px;
   }
   
@@ -20,7 +20,14 @@
   }
   
   /* Parte delantera de la tarjeta */
-  .image-card-front, .image-card-back {
+  .image-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .image-card-front {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -48,5 +55,21 @@
   /* Texto de la parte trasera */
   .info-text {
     color: #4a5568; /* Text color */
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   
+  .info-text h2 {
+    text-justify: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .info-text-sub {
+    text-justify: auto;
+    font-weight: bold;
+    color: #4a5568;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }

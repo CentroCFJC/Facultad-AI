@@ -6,10 +6,11 @@ const Accordion = () => {
 
   // Arreglo con los datos de cada acordeón (texto e información)
   const accordionData = [
-    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff' },
-    { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa' },
-    { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1' },
-    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2' },
+    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen: 'src/assets/1.png' },
+    { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa', imagen: 'src/assets/2.png' },
+    { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1', imagen:'src/assets/3.png' },
+    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'src/assets/4.png' },
+    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'src/assets/5.png' },
   ];
 
   const handleToggle = (index) => {
@@ -39,9 +40,9 @@ const Accordion = () => {
           </button>
           <div
             className={`accordion-content ${openIndexes.includes(index) ? 'open' : 'hidden'}`}
-            style={{ backgroundColor: item.bgColor }} // Color de fondo dinámico
           >
-            <p>{item.content}</p>
+            <img src={item.imagen} className='accordion-image'></img>
+            {/* <p>{item.content}</p> */}
           </div>
         </div>
       ))}

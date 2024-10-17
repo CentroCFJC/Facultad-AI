@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ImageCard.css'; // Importa los estilos
 
-function ImageCard({ src, alt, info }) {
+function ImageCard({ src, alt, title, lider, info, sub }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
@@ -15,7 +15,10 @@ function ImageCard({ src, alt, info }) {
           <img src={src} alt={alt} className="image" />
         </div>
         <div className="image-card-back">
+          <h1 className="info-text">{title}</h1>
+          <h2 className="info-text">{lider}</h2>
           <p className="info-text">{info}</p>
+          <p className="info-text-sub">{sub}</p>
         </div>
       </div>
     </div>
