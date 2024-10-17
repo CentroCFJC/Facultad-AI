@@ -19,9 +19,9 @@ function App() {
       <Reproductor/>
       <Accordion/>
       <Texto2 />
-      <InfoProyecto/>
-      <ImageGallery />
       <ImageCarousel />
+      <ImageGallery />
+      {/* <InfoProyecto/> */}
     </div> 
     </>
   )

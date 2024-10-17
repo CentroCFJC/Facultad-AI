@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react';
 import './Header.css';
-import videofondo from './assets/Fondo_header_1.mp4';
+import videofondo from './assets/Fondo_header_Without_logo.mp4';
 import anime from 'animejs';
+import logoFacu from './assets/logo_FACIAING.png'
 
 function Header() {
     const sidebarRef = useRef(null); // Crear referencia para la barra lateral
@@ -32,6 +33,7 @@ function Header() {
 
     return (
         <div className="video-container">
+            <img className="logoFacu" src={logoFacu}/>
             <video autoPlay loop muted playsInline className="background-video">
                 <source src={videofondo} type="video/mp4" />
             </video>

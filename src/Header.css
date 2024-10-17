@@ -60,6 +60,15 @@ body {
   transform: translate(-50%, -50%);  
 }
 
+.logoFacu {
+  position:absolute;
+  left: 0;
+  margin-left: 5%; 
+  margin-top: 3%;
+  width: 20%;
+  height: auto;
+}
+
 
 /* Media queries para pantallas más pequeñas */
 @media (max-width: 1200px) {
