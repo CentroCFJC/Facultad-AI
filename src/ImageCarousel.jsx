@@ -5,7 +5,7 @@ import './ImageCarousel.css'; // Importamos los estilos
 const images = [
   {
     id: 1,
-    src: 'https://drive.google.com/u/1/drive-viewer/AKGpihbTsX1hMcJQSAZk5tsyQdnV5w4bZS36ezUfrejOPNT_EHkw8aMHo_P_SRMi-IXtyvwAiRPqUXwissjQJXiu2YvymLqkE3pJOdU=s1600-rw-v1',
+    src: 'https://i.postimg.cc/xqD3vWfC/gene-rica.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -14,7 +14,7 @@ const images = [
   },
   {
     id: 2,
-    src: 'src/assets/spectro.png',
+    src: 'https://i.postimg.cc/59YcmL9d/spectro.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -24,7 +24,7 @@ const images = [
   },
   {
     id: 3,
-    src: 'src/assets/origen.png',
+    src: 'https://i.postimg.cc/yNBr4Szd/origen.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -33,7 +33,7 @@ const images = [
   },
   {
     id: 4,
-    src: 'src/assets/mabe.png',
+    src: 'https://i.postimg.cc/c1VpkC6K/mabe.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -42,7 +42,7 @@ const images = [
   },
   {
     id: 5,
-    src: 'src/assets/genérica.png',
+    src: 'https://i.postimg.cc/xqD3vWfC/gene-rica.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
