@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './Acordion.css'; // Estilos separados en CSS
+import prim from './assets/1.png';
 
 const Accordion = () => {
   const [openIndexes, setOpenIndexes] = useState([]); // Un arreglo para rastrear qué acordeones están abiertos
 
   // Arreglo con los datos de cada acordeón (texto e información)
   const accordionData = [
-    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen: './assets/1.png' },
+    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen:{prim} },
     { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa', imagen: 'src/assets/2.png' },
     { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1', imagen:'src/assets/3.png' },
     { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'src/assets/4.png' },
