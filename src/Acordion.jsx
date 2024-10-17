@@ -7,7 +7,7 @@ const Accordion = () => {
 
   // Arreglo con los datos de cada acordeón (texto e información)
   const accordionData = [
-    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen:"https://drive.google.com/u/1/drive-viewer/AKGpihbTsX1hMcJQSAZk5tsyQdnV5w4bZS36ezUfrejOPNT_EHkw8aMHo_P_SRMi-IXtyvwAiRPqUXwissjQJXiu2YvymLqkE3pJOdU=s1600-rw-v1" },
+    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen:'https://i.postimg.cc/yNBr4Szd/origen.png' },
     { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa', imagen: 'src/assets/2.png' },
     { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1', imagen:'src/assets/3.png' },
     { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'src/assets/4.png' },
