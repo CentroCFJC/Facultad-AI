@@ -1,7 +1,6 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './Carrucel.css';
-import fotocarrucel from './assets/Rectangle.png';
 
 
 function Carrusel({ deviceType }) {

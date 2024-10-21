@@ -73,3 +73,11 @@
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+
+  .image-card-container {
+    width: 25rem; /* 600px */
+    height: 35rem; /* 892 */
+    perspective: 1000px;
+  }
+  

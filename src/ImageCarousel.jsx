@@ -5,7 +5,7 @@ import './ImageCarousel.css'; // Importamos los estilos
 const images = [
   {
     id: 1,
-    src: 'https://i.postimg.cc/xqD3vWfC/gene-rica.png',
+    src: '/generica.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -14,7 +14,7 @@ const images = [
   },
   {
     id: 2,
-    src: 'https://i.postimg.cc/59YcmL9d/spectro.png',
+    src: '/spectro.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -24,7 +24,7 @@ const images = [
   },
   {
     id: 3,
-    src: 'https://i.postimg.cc/yNBr4Szd/origen.png',
+    src: '/origen.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -33,7 +33,7 @@ const images = [
   },
   {
     id: 4,
-    src: 'https://i.postimg.cc/c1VpkC6K/mabe.png',
+    src: '/mabe.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',
@@ -42,7 +42,7 @@ const images = [
   },
   {
     id: 5,
-    src: 'https://i.postimg.cc/xqD3vWfC/gene-rica.png',
+    src: '/generica.png',
     alt: '',
     title: 'SpectroCVT-Net',
     lider: 'Lider Investigador : xxxxxxxxxxx',

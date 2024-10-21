@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import './Acordion.css'; // Estilos separados en CSS
-import prim from './assets/1.png';
 
 const Accordion = () => {
   const [openIndexes, setOpenIndexes] = useState([]); // Un arreglo para rastrear qué acordeones están abiertos
 
   // Arreglo con los datos de cada acordeón (texto e información)
   const accordionData = [
-    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen:'https://i.postimg.cc/Y0JbXv3t/1.png' },
-    { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa', imagen: 'https://i.postimg.cc/XNhHNP0t/2.png' },
-    { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1', imagen:'https://i.postimg.cc/mgWmCFkw/3.png' },
-    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'https://i.postimg.cc/8zdtHPrV/4.png' },
-    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'https://i.postimg.cc/yYZfDT1x/5.png' },
+    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen:'/1.png' },
+    { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa', imagen: '/2.png' },
+    { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1', imagen:'/3.png' },
+    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'/4.png' },
+    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'/5.png' },
   ];
 
   const handleToggle = (index) => {
@@ -43,7 +42,6 @@ const Accordion = () => {
             className={`accordion-content ${openIndexes.includes(index) ? 'open' : 'hidden'}`}
           >
             <img src={item.imagen} className='accordion-image'></img>
-            {/* <p>{item.content}</p> */}
           </div>
         </div>
       ))}
