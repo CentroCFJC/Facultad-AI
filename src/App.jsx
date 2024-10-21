@@ -8,6 +8,7 @@ import Texto2 from './Texto2.jsx'
 import ImageGallery from './ImageGallery.jsx'
 import Fondo from './Fondo.jsx'
 import ImageCarousel from './ImageCarousel.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Texto2 />
       <ImageCarousel />
       <ImageGallery />
+      <Footer/>
       {/* <InfoProyecto/> */}
     </div> 
     </>

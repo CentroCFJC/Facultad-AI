@@ -1,0 +1,178 @@
+/* Estilos generales del pie de página */
+.footer {
+    background-color: #1e3a8a; /* bg-blue-900 */
+    color: white;
+  }
+  
+  .footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 2%; /* Espaciado a la izquierda */
+    padding-right: 2%; /* Espaciado a la derecha */
+  }
+  
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+    }
+  }
+  
+  /* Sección izquierda */
+  .left-section {
+    flex: 1;
+    display: flex;
+  }
+  
+  .footer-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold;
+    margin-left: 5%;
+    transform: translateY(20%);
+  }
+  
+  .white-box {
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+  }
+  
+  /* Sección derecha */
+  .right-section {
+    display: flex;
+    margin-right: 1rem;
+    gap: 10rem;
+  }
+  
+  .right-content {
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+  
+  .footer-subtitle {
+    font-weight: 600; /* font-semibold */
+  }
+  
+  /* Reducimos el interlineado de las listas en Universidad y Facultad */
+  .right-content p {
+    line-height: 0.5; /* Ajuste para reducir el interlineado */
+  }
+  
+  /* Sección inferior */
+  .footer-bottom {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #1e40af; /* border-blue-800 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  
+  @media (min-width: 768px) {
+    .footer-bottom {
+      flex-direction: row;
+    }
+  }
+  
+  .footer-credit {
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .social-section {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .social-text {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Borde decorativo */
+  .decorative-border {
+    height: 2rem;
+    background-color: #1e3a8a; /* bg-blue-900 */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .decorative-line {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .decorative-line::before,
+  .decorative-line::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #1e40af; /* bg-blue-700 */
+  }
+  
+  .decorative-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #1e40af; /* bg-blue-700 */
+    border-radius: 50%;
+    margin: 0 0.25rem;
+  }
+  
+  /* Sección del logo */
+  .logo-section {
+    background-color: #1e3a8a; /* bg-blue-900 */
+    padding: 1rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-box {
+    margin-right: 1rem;
+  }
+  
+  .white-bg {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 9999px;
+  }
+  
+  .inner-logo {
+    width: 3rem;
+    height: 3rem;
+    background-color: #1e3a8a; /* bg-blue-900 */
+    border-radius: 9999px;
+  }
+  
+  .long-logo {
+    width: 8rem;
+    height: 3rem;
+    background-color: #1e3a8a; /* bg-blue-900 */
+  }
+  
