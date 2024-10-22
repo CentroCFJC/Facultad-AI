@@ -52,6 +52,17 @@
   .footer-subtitle {
     font-weight: 600; /* font-semibold */
   }
+
+  .subtitle {
+    font-weight: 600; /* font-semibold */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza transform y color */
+}
+
+.subtitle:hover {
+    transform: scale(1.1); /* Aumenta el tamaño un 10% */
+    color: #3498db; /* Cambia el color a azul claro al hacer hover */
+}
+
   
   /* Reducimos el interlineado de las listas en Universidad y Facultad */
   .right-content p {

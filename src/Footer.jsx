@@ -13,6 +13,14 @@ const Footer = () => {
     window.open('https://www.ucaldas.edu.co/portal/', '_blank')
   };
 
+  const redirecToSIG = () => {
+    window.open('http://sig.ucaldas.edu.co/gestionDocumental/', '_blank')
+  };
+
+  const redirecToCampus = () => {
+    window.open('https://virtual.ucaldas.edu.co/', '_blank')
+  };
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -27,9 +35,9 @@ const Footer = () => {
           <div className="right-section">
             <div className="right-content">
               <h3 className="footer-subtitle">Universidad</h3>
-              <p>Portal Institucional</p>
-              <p>Sistema Integrado de Gestión</p>
-              <p>Campus Virtual</p>
+              <p onClick={redirectToWeb} className='subtitle'>Portal Institucional</p>
+              <p onClick={redirecToSIG} className='subtitle'>Sistema Integrado de Gestión</p>
+              <p onClick={redirecToCampus} className='subtitle'>Campus Virtual</p>
             </div>
             <div className="right-content">
               <h3 className="footer-subtitle">Facultad</h3>
