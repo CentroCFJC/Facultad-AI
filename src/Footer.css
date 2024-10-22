@@ -145,20 +145,90 @@
     height: auto;
   }
 
+  
   @media (min-width: 768px) {
+    .footer {
+      justify-content: space-around;
+    }
     .footer-bottom {
       flex-direction: row;
+      justify-content: space-between;
+    }
+    .footer-content {
+      flex-direction: row;
+    }
+
+    .right-section {
+      flex-direction: row;
+      gap: 10rem;
+    }
+  
+    .social-icons .icon {
+      width: 20px; /* Ajuste el tamaño del ícono para pantallas medianas y grandes */
+    }
+
+    .right-section {
+      gap: 5rem;
+    }
+    .right-content p {
+      line-height: 0.5; /* Ajuste para reducir el interlineado */
     }
   }
   
-  @media (min-width: 768px) {
-    .footer-bottom {
-      flex-direction: row;
+  @media (max-width: 767px) {
+    .footer {
+      justify-content: space-around;
+    }
+    .footer-title {
+      font-size: 0.5rem; /* Ajuste la fuente para pantallas pequeñas */
+    }
+  
+    .white-box {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .footer-subtitle {
+      font-size: 0.5rem; /* Ajuste el tamaño de subtítulos para pantallas pequeñas */
+    }
+  
+    .social-icons .icon {
+      width: 20px; /* Íconos más pequeños para pantallas pequeñas */
+    }
+  
+    .footer-credit {
+      font-size: 0.5rem;
+      transform: translateX(0%);
+      text-align: center;
+    }
+
+    .logos {
+      height: 20px;
+
+    }
+  
+    .social-section {
+      gap: 1rem;
     }
   }
+  
+  @media (min-width: 1024px) {
+    .footer-title {
+      font-size: 2rem; /* Aumenta el tamaño de la fuente en pantallas más grandes */
+    }
+  
+    .right-content p {
+      line-height: 1.5rem; /* Aumenta ligeramente el interlineado para pantallas grandes */
+    }
+  
+    .social-icons .icon {
+      width: 40px; /* Íconos más grandes en pantallas grandes */
+    }
 
-  @media (min-width: 768px) {
-    .footer-content {
-      flex-direction: row;
+    .social-text {
+      transform: translate(60%);
+    }
+    .right-content p {
+      line-height: 0.5; /* Ajuste para reducir el interlineado */
     }
   }
