@@ -6,11 +6,11 @@ const Accordion = () => {
 
   // Arreglo con los datos de cada acordeón (texto e información)
   const accordionData = [
-    { content: 'Información detallada sobre la facultad de ingeniería.', bgColor: '#f0f8ff', imagen:'/1.png' },
-    { content: 'Información sobre el programa de inteligencia artificial.', bgColor: '#e6e6fa', imagen: '/2.png' },
-    { content: 'Información acerca de las oportunidades de investigación.', bgColor: '#ffe4e1', imagen:'/3.png' },
-    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'/4.png' },
-    { content: 'Información de contacto y ubicación.', bgColor: '#fafad2', imagen:'/5.png' },
+    { content: '¿Por qué se crea la Facultad de IA de la Universidad de Caldas?', bgColor: '#f0f8ff', imagen:'/1.png' },
+    { content: '¿Por qué en la Universidad de Caldas?', bgColor: '#e6e6fa', imagen: '/2.png' },
+    { content: '¿Qué programas académicos se ofertarán en la Facultad?', bgColor: '#ffe4e1', imagen:'/3.png' },
+    { content: '¿Qué impactos se espera que tenga?', bgColor: '#fafad2', imagen:'/4.png' },
+    { content: '¿Qué obtendremos a corto, mediano y largo plazo?', bgColor: '#fafad2', imagen:'/5.png' },
   ];
 
   const handleToggle = (index) => {
@@ -29,7 +29,7 @@ const Accordion = () => {
             className="accordion-button"
             onClick={() => handleToggle(index)}
           >
-            <span>INFO FACULTAD {index + 1}</span>
+            <span>{item.content}</span>
             <svg
               className={`accordion-icon ${openIndexes.includes(index) ? 'rotate-180' : ''}`}
               viewBox="0 0 20 20"

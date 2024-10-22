@@ -4,7 +4,8 @@ function Texto1() {
     return (
         <div className='TextCont'>
             <h1>Lorem ipsum dolor sit amet</h1>
-            <p>consectetur adipiscing elit. Ut eget nibh felis. Phasellus rhoncus ultricies sapien, a imperdiet urna blandit ac. Nam ipsum lorem, posuere et elit vel, venenatis finibus ante. Cras pharetra venenatis blandit. Etiam at vehicula leo, vel ornare nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur at ullamcorper magna.</p>
+            <p>En la Facultad de Inteligencia Artificial e Ingenierías, nos dedicamos a formar profesionales lideran la próxima revolución tecnológica. Nuestra oferta académica integra una educación de calidad con un enfoque práctico y multidisciplinario, impulsando la innovación, la investigación y el desarrollo en campos como la inteligencia artificial, las ingenierías de sistemas, informática, alimentos, agroindustria, logística y más.
+            </p>
         </div>
     );
 }
