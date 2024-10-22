@@ -4,32 +4,32 @@ import './ImageGallery.css';
 const images = [
   {
     id: 1,
-    url: '/public/Diapositiva1.JPG',
+    url: '/Diapositiva1.JPG',
     title: 'Beach Sunset',
   },
   {
     id: 2,
-    url: '/public/Diapositiva2.JPG',
+    url: '/Diapositiva2.JPG',
     title: 'Mountain Lake',
   },
   {
     id: 3,
-    url: '/public/Diapositiva3.JPG',
+    url: '/Diapositiva3.JPG',
     title: 'Desert Landscape',
   },
   {
     id: 4,
-    url: '/public/Diapositiva4.JPG',
+    url: '/Diapositiva4.JPG',
     title: 'Forest Path',
   },
   {
     id: 5,
-    url: '/public/Diapositiva5.JPG',
+    url: '/Diapositiva5.JPG',
     title: 'Forest Path',
   },
   {
     id: 6,
-    url: '/public/Diapositiva7.JPG',
+    url: '/Diapositiva7.JPG',
     title: 'Forest Path',
   },
 ];

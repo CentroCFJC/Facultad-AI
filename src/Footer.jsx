@@ -31,15 +31,15 @@ const Footer = () => {
 
           {/* Sección inferior */}
           <div className="footer-bottom">
-            <img src='/public/logos.png' className='logos'/>
+            <img src='/logos.png' className='logos'/>
             <p className="footer-credit">Realizado por Centro de Ciencia Francisco José de Caldas</p>
             <div className="social-section">
               <p className="social-text">Visita nuestras redes sociales y nuestra web<br/>Facultad de Inteligencia Artificial e Ingenierías</p>
             </div>
               <div className="social-icons">
-                <img src='/public/facebook-svgrepo-com.svg' className='icon'></img>
-                <img src='/public/instagram-167-svgrepo-com.svg' className='icon'></img>
-                <img src='/public/web-svgrepo-com.svg' className='icon'></img>
+                <img src='/facebook-svgrepo-com.svg' className='icon'></img>
+                <img src='/instagram-167-svgrepo-com.svg' className='icon'></img>
+                <img src='/web-svgrepo-com.svg' className='icon'></img>
               </div>
           </div>
         </div>
