@@ -54,7 +54,7 @@
   }
 
   .subtitle {
-    font-weight: 600; /* font-semibold */
+    font-weight: 400; /* font-semibold */
     transition: transform 0.3s ease, color 0.3s ease; /* Suaviza transform y color */
 }
 

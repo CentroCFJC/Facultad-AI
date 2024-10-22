@@ -21,6 +21,14 @@ const Footer = () => {
     window.open('https://virtual.ucaldas.edu.co/', '_blank')
   };
 
+  const redirecToInge = () => {
+    window.open('https://ingenierias.ucaldas.edu.co/', '_blank')
+  };
+
+  const redirecToDir = () => {
+    window.open('https://www.google.com/maps/dir/5.0397184,-75.4712576/ucaldas/@5.0469285,-75.5012375,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8e476564a7bfefc7:0xc1e29e2ea369afb6!2m2!1d-75.4928883!2d5.0559546?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D','_blank')
+  };
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -41,10 +49,10 @@ const Footer = () => {
             </div>
             <div className="right-content">
               <h3 className="footer-subtitle">Facultad</h3>
-              <p>Página web</p>
-              <p>Dirección</p>
-              <p>Teléfono</p>
-              <p>Correo electrónico</p>
+              <p onClick={redirecToInge} className='subtitle'>Página web</p>
+              <p onClick={redirecToDir} className='subtitle'>Dirección</p>
+              <p>Tel (606) 8781500</p>
+              <p>atencionalciudadano@ucaldas.edu.co</p>
             </div>
           </div>
         </div>
