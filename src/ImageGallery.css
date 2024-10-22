@@ -9,7 +9,7 @@
   .gallery-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
   }
   
   @media (min-width: 768px) {
@@ -22,7 +22,6 @@
   .right-column {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
   
   @media (min-width: 768px) {
@@ -47,13 +46,12 @@
   .preview-images {
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
   
   .preview-image {
-    margin: 5px;
-    width: 80%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px;

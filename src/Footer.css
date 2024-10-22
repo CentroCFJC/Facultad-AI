@@ -1,6 +1,6 @@
 /* Estilos generales del pie de página */
 .footer {
-    background-color: #1e3a8a; /* bg-blue-900 */
+    background-color: #1e3a8a;
     color: white;
   }
   
@@ -16,12 +16,6 @@
     align-items: start;
     padding-left: 2%; /* Espaciado a la izquierda */
     padding-right: 2%; /* Espaciado a la derecha */
-  }
-  
-  @media (min-width: 768px) {
-    .footer-content {
-      flex-direction: row;
-    }
   }
   
   /* Sección izquierda */
@@ -74,16 +68,15 @@
     align-items: center;
     justify-content: space-between;
   }
- 
   
-  @media (min-width: 768px) {
-    .footer-bottom {
-      flex-direction: row;
-    }
+  .logos {
+    position: absolute;
+    height: 50px;
   }
-  
   .footer-credit {
     font-size: 0.875rem; /* text-sm */
+    left: 1rem;
+    transform: translateX(60%);
   }
   
   .social-section {
@@ -92,21 +85,19 @@
     align-items: center;
   }
   
-  @media (min-width: 768px) {
-    .social-section {
-      flex-direction: row;
-      align-items: center;
-    }
-  }
-  
   .social-text {
     margin-bottom: 0.5rem;
     font-size: 0.875rem; /* text-sm */
+    transform: translateX(150%);
   }
   
   .social-icons {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+  }
+
+  .icon {
+    width: 40px;
   }
   
   /* Borde decorativo */
@@ -147,32 +138,27 @@
     padding: 1rem;
   }
   
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .fondofooter {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .footer-bottom {
+      flex-direction: row;
+    }
   }
   
-  .logo-box {
-    margin-right: 1rem;
+  @media (min-width: 768px) {
+    .footer-bottom {
+      flex-direction: row;
+    }
   }
-  
-  .white-bg {
-    background-color: white;
-    padding: 0.5rem;
-    border-radius: 9999px;
+
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+    }
   }
-  
-  .inner-logo {
-    width: 3rem;
-    height: 3rem;
-    background-color: #1e3a8a; /* bg-blue-900 */
-    border-radius: 9999px;
-  }
-  
-  .long-logo {
-    width: 8rem;
-    height: 3rem;
-    background-color: #1e3a8a; /* bg-blue-900 */
-  }
-  

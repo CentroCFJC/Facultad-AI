@@ -4,22 +4,32 @@ import './ImageGallery.css';
 const images = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1682687220566-5599dbbebf11?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8',
+    url: '/public/Diapositiva1.JPG',
     title: 'Beach Sunset',
   },
   {
     id: 2,
-    url: 'https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    url: '/public/Diapositiva2.JPG',
     title: 'Mountain Lake',
   },
   {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1682687981922-7b55dbb30892?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D',
+    url: '/public/Diapositiva3.JPG',
     title: 'Desert Landscape',
   },
   {
     id: 4,
-    url: 'https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    url: '/public/Diapositiva4.JPG',
+    title: 'Forest Path',
+  },
+  {
+    id: 5,
+    url: '/public/Diapositiva5.JPG',
+    title: 'Forest Path',
+  },
+  {
+    id: 6,
+    url: '/public/Diapositiva7.JPG',
     title: 'Forest Path',
   },
 ];
