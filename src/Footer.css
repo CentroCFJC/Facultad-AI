@@ -98,7 +98,13 @@
 
   .icon {
     width: 40px;
+    transition: transform 0.3s ease; /* Transición suave de 0.3 segundos */
   }
+
+.icon:hover {
+    transform: scale(1.2); /* Expande el icono un 20% */
+  }
+
   
   /* Borde decorativo */
   .decorative-border {
