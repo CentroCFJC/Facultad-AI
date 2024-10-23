@@ -3,12 +3,12 @@ import ReactPlayer from 'react-player'
 function Reproductor () {
     return (
         <div>
-            <ReactPlayer url='https://www.youtube.com/watch?v=XFNzN36jIfI' 
+            <ReactPlayer url='/Video Sinergia V2compres.mp4' 
             controls
             muted
             loop
             width="100%"
-            height="100vh"
+            height="auto"
             />
         </div>
     )
