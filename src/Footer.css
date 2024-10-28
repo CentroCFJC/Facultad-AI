@@ -36,6 +36,11 @@
     height: 12rem;
     background-color: white;
   }
+
+  .qr-code {
+    width: 100%;
+    height: auto;
+  }
   
   /* Sección derecha */
   .right-section {

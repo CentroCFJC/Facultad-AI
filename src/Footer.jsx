@@ -35,7 +35,9 @@ const Footer = () => {
         <div className="footer-content">
           {/* Sección izquierda */}
           <div className="left-section">
-            <div className="white-box"></div>
+            <div className="white-box">
+              <img src='/unnamed.png' className='qr-code'/>
+            </div>
             <h2 className="footer-title">Regístrate para<br />más información</h2>
           </div>
 

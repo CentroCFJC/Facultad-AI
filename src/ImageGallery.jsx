@@ -42,9 +42,9 @@ function ImageGallery() {
       <div className="gallery-container">
         <div className="left-column">
           <div className="text-content">
-            <h1>IMAGENES MODELO FAC</h1>
+            <h1>Así será la Nueva Facultad de Inteligencia Artificial e Ingenierías</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              Con la próxima remodelación, la Facultad de Inteligencia Artificial e Ingenierías de la Universidad de Caldas se convertirá en un espacio de vanguardia que integrará tecnología avanzada y diseño innovador para fomentar el aprendizaje y la investigación. La remodelación incluye la creación de laboratorios especializados, aulas interactivas y espacios de coworking que promuevan la colaboración entre estudiantes y profesores
             </p>
           </div>
           <div className="preview-images">
