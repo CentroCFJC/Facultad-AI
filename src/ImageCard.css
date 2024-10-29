@@ -53,25 +53,44 @@
   }
   
   /* Texto de la parte trasera */
+  .info-text-title{
+    color: #4a5568; /* Text color */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: clamp(0.8rem, 2vw, 1.4rem); 
+  }
+  .info-text-lider {
+    color: #4a5568; /* Text color */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: clamp(0.8rem, 2vw, 1.4rem); 
+  }
   .info-text {
     color: #4a5568; /* Text color */
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: clamp(0.5rem, 2vw, 1rem); 
   }
   
   .info-text h2 {
     text-justify: auto;
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: clamp(0.8rem, 2vw, 1.5rem); 
   }
 
   .info-text-sub {
     text-justify: auto;
     font-weight: bold;
     color: #4a5568;
-    margin-top: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: clamp(0.5rem, 2vw, 1rem); 
   }
 
 

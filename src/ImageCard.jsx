@@ -15,8 +15,9 @@ function ImageCard({ src, alt, title, lider, info, sub }) {
           <img src={src} alt={alt} className="image" />
         </div>
         <div className="image-card-back">
-          <h1 className="info-text">{title}</h1>
-          <h2 className="info-text">{lider}</h2>
+          <h1 className="info-text-title">{title}</h1>
+          <h2 className="info-text">Lider Investigador :</h2>
+          <h2 className="info-text-lider">{lider}</h2>
           <p className="info-text">{info}</p>
           <p className="info-text-sub">{sub}</p>
         </div>
