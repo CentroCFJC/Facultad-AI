@@ -1,8 +1,26 @@
 /* Estilos generales del pie de página */
 .footer {
+    position: absolute;
+    width: 100%;
     background-color: #1e3a8a;
     color: white;
+    overflow: hidden;
   }
+
+  .textura-footer {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    overflow: hidden;
+    object-fit:cover; /* Mantiene la proporción del contenido dentro de la imagen */
+    left: 9%;
+    top: 60%;
+    margin: 0;
+    padding: 0;
+  }
+
   
   .footer-container {
     max-width: 100%;

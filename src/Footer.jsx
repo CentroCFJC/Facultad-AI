@@ -31,6 +31,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+      <img src='/texturafooter.svg' className='textura-footer'></img>
       <div className="footer-container">
         <div className="footer-content">
           {/* Sección izquierda */}
