@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap'); 
+
 body {
   margin: 0;
   padding: 0;
@@ -44,19 +46,33 @@ body {
   text-align: left;
   font-size: 4vw; /* Ajusta según el tamaño que necesites */
   z-index: 10;
-  line-height: 1.5; /* Ajusta el espacio entre líneas */
-  white-space: pre-line; /* Permite que los saltos de línea se mantengan */
+  line-height: 1; /* Ajusta el espacio entre líneas */
   width: 30ch;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title-full {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.typewriter {
+  font-family: 'Roboto', sans-serif;
+  display: inline; 
+}
+
+.typewriter div {
+  display: inline-block; 
 }
 
 .sidebar {
   position: absolute;
-  width: 5px;  /* Grosor de la barra */
-  height: 40%;  /* Ocupará el tamaño del contenido */
+  width: 2px;  /* Grosor de la barra */
+  height: 15%;  /* Ocupará el tamaño del contenido */
   background-color: white;  /* Color de la barra */
   margin-right: 20px;  /* Espacio entre la barra y el texto */
   top: 55%;
-  left: 5%;
+  left: 8%;
   transform: translate(-50%, -50%);  
 }
 

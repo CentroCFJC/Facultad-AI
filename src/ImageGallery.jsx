@@ -66,9 +66,8 @@ function ImageGallery() {
             className="large-image"
           />
           <div className="image-description">
-            <h2>Sed ut perspiciatis unde omnis</h2>
             <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+              Nuestra nueva Facultad de Inteligencia Artificial e Ingenierías, será un espacio diseñado para impulsar la innovación, la colaboración y la tecnología, diseñado para potenciar el aprendizaje y la creación de líderes.
             </p>
           </div>
         </div>

@@ -36,7 +36,7 @@ const Footer = () => {
           {/* Sección izquierda */}
           <div className="left-section">
             <div className="white-box">
-              <img src='/unnamed.png' className='qr-code'/>
+              <img src='/qr-fac-ai.png' className='qr-code'/>
             </div>
             <h2 className="footer-title">Regístrate para<br />más información</h2>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
 
         {/* Sección inferior */}
         <div className="footer-bottom">
-          <img src='/logos.png' className='logos' alt='logos'/>
+          <img src='/LogoCCFJC.svg' className='logos' alt='logos'/>
           <p className="footer-credit">Realizado por Centro de Ciencia Francisco José de Caldas</p>
           <div className="social-section">
             <p className="social-text">Visita nuestras redes sociales y nuestra web<br/>Facultad de Inteligencia Artificial e Ingenierías</p>

@@ -42,8 +42,8 @@ function Header() {
                 <h1 className="typewriter">
                  
                     <div>Impulsamos el desarrollo</div>
-                    <div>del país con la FACULTAD DE</div>
-                    <div>IA e Ingenierías</div>
+                        <div>del país con la</div><span> </span><div className='title-full'>FACULTAD DE</div>
+                        <div className='title-full'>IA e Ingenierías</div>
                 </h1>
             </div>
         </div>

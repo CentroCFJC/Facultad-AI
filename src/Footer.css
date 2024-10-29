@@ -78,11 +78,10 @@
   .footer-bottom {
     margin-top: 1rem;
     padding-top: 1rem;
-    border-top: 1px solid #1e40af; /* border-blue-800 */
+    border-top: 1px solid #1e40af;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
   }
   
   .logos {
@@ -91,20 +90,20 @@
   }
   .footer-credit {
     font-size: 0.875rem; /* text-sm */
-    left: 1rem;
-    transform: translateX(60%);
+    margin-left: 12rem;
   }
   
   .social-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
   }
   
   .social-text {
+    margin-right: 15rem;
     margin-bottom: 0.5rem;
     font-size: 0.875rem; /* text-sm */
-    transform: translateX(150%);
   }
   
   .social-icons {
