@@ -24,7 +24,7 @@ const images = [
   },
   {
     id: 3,
-    src: '/mabe.png',
+    src: '/generica.png',
     alt: '',
     title: 'Prototipo Robótico para Detección Emocional en Personas con Distimia',
     lider: 'Alejandro Salazar',
@@ -33,7 +33,7 @@ const images = [
   },
   {
     id: 4,
-    src: '/origen.png',
+    src: '/pc.png',
     alt: '',
     title: 'Sistema de Transcripción para Interlocución Médico-Paciente en el Hospital Universitario de Caldas',
     lider: 'Reinel Tabares',
@@ -43,7 +43,7 @@ const images = [
   
   {
     id: 5,
-    src: '/generica.png',
+    src: '/mabe.png',
     alt: '',
     title: 'Prototipo de Visión Artificial para Detección de Defectos en Superficies Metálicas',
     lider: 'Felipe Buitrago Carmona',
